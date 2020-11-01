@@ -1,0 +1,12 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int a,b,sub;
+clrscr();
+printf("Enter the values of a and b");
+scanf("%d%d",&a,&b);
+sub=a-b;
+printf("Subtraction of the given numbers = %d",sub);
+getch();
+}
