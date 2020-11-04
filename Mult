@@ -1,0 +1,12 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int a,b,mult;
+clrscr();
+printf("Enter the values of a and b");
+scanf("%d%d",&a,&b);
+mult=a*b;
+printf("Multiplication of the given numbers = %d",mult);
+getch();
+}
