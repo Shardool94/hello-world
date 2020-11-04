@@ -1,0 +1,12 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int a,b,div;
+clrscr();
+printf("Enter the values of a and b");
+scanf("%d%d",&a,&b);
+div=a/b;
+printf("Division of the given numbers = %d",div);
+getch();
+}
